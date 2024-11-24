@@ -165,5 +165,3 @@ output/
 script/
 wandb/
 log/
-*.csv
-ruff.toml
