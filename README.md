@@ -44,7 +44,7 @@ python fedlearn.py
 ### Run specific experiment
 To run a specific experiment on dataset **SVHN** with Dirichlet parameter **0.1** based on **GA** algorithm, you can supply the configuration as command line argument:
 ```bash
-python fedlearn.py DATA.NAME SVHN DATA.IB.ALPHA 0.1 FL.ALG GA
+python fedlearn.py DATA.NAME SVHN DATA.IB.ALPHA 0.1 FL.ALG FedGA
 ```
 or, make a copy of the default config file [config_default](GA/utils/config_default.yaml) and modify it and run the following command:
 ```bash
