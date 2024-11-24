@@ -8,7 +8,7 @@ dependencies = [
     "datasets==2.21.0",
     "python-box==7.0.0",
     "scipy==1.12.0",
-    "torchvision==0.17.0",
+    "torchvision==0.15.2",
     "torchmetrics==0.10.1",
     "wandb==0.17.7",
 ]
