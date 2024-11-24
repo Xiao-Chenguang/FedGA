@@ -1,0 +1,22 @@
+CL:
+  MODEL:
+    NET: LeNet
+  OPTIM:
+    LR: 0.001
+    MOMENTUM: 0
+    TYPE: adam
+DATA:
+  IB:
+    ALPHA: 0.5
+  NAME: CIFAR10
+  PATH: ./datasets
+  SEED: 0
+FL:
+  ALG: FedAvg
+  PARAM: None
+  EPOCH:
+    GLOBAL: 500
+  EVAL: 1
+  CEVAL: 10
+  LR: 1
+  LOG: 30
