@@ -10,16 +10,15 @@ All the experiments were conducted on a Linux machine with the following specifi
 
 ## Requirements
 The code was developed using the following versions of the software:
-- Python: 3.9.17
+- Python: 3.11.9
 
 The following packages are required to run the code:
-- torch 2.0.1
+- datasets 2.21.0
+- python-box 7.0
+- scipy 1.12.0
 - torchvision 0.15.2
 - torchmetrics 0.10.1
-- tensorboard 2.15.1
-- PyYAML 6.0.1
-- scipy 1.12.0
-- python-box 7.0
+- wandb 0.17.7
 
 ## Usage
 Always `cd` to the root directory of this project before running the experiments.
